@@ -1,7 +1,4 @@
-function [E,I] = run( I,prm,disp )
-    clc;
-    close all;
-    
+function [E,I] = run( I,prm,disp )    
     if ~exist('prm','var')
         prm = getPrm();
     end

@@ -12,7 +12,7 @@ function res = runReal(I)
     
     iter = length(xGrid)*length(yGrid);
     
-    iter
+    fprintf('Number of Oterations = %d\n',iter);
     
     for x0 = xGrid
         for y0 = yGrid
