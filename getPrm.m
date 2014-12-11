@@ -6,7 +6,7 @@ function prm = getPrm()
     prm.nmsFact = 0.75;
     prm.maxTurn = 35;
     prm.maxNumOfEdges = 100;
-    prm.addShift = true;
+    prm.addShift = false;
     
     % Constants
     prm.complexity = 15;
