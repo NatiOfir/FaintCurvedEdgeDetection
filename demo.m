@@ -1,6 +1,7 @@
 clc;
 clear all;
 close all;
+
 %% Real Image
 I = im2double(imread('images000.tiff'));
 I = imresize(I,[129 129]); 
