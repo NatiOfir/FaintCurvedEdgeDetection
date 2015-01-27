@@ -5,7 +5,7 @@ function prm = getPrm()
     prm.removeEpsilon = 0.248; 
     prm.nmsFact = 0.75;
     prm.maxTurn = 35;
-    prm.maxNumOfEdges = 100;
+    prm.maxNumOfEdges = 50;
     prm.addShift = false;
     
     % Constants

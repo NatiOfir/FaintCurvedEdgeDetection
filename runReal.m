@@ -4,7 +4,8 @@ function res = runReal(I)
     tic;
     [m,n] = size(I);
     R = zeros(size(I));
-    block = 129;
+    block = 2^floor(log2(min(size(I))))+1;
+    disp(block);
     gap = 10;
     
     xGrid = getGrid(block,gap,m);
