@@ -2,9 +2,8 @@ FaintCurvedEdgeDetection
 ========================
 
 Detector of faint edges in noisy images for Matlab.
-This detector is relatively slow, I suggest to use one of my two other solutions for faint edge detection.
-If you want faster solution for curved edges try:
-https://github.com/NatiOfir/TrianglesEdgeDetection.git
+Rectagle implementation of the CVPR 2016:
+https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Ofir_Fast_Detection_of_CVPR_2016_paper.html
 
 Usage in Matlab:
 
@@ -15,3 +14,5 @@ See demo.m for example.
 
 Important Files:
 getPrm.m - Params of the algorithm
+
+Good luck!
